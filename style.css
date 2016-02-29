@@ -1,0 +1,297 @@
+
+
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,a,abbr,acronym,em,img,ol,ul,li {border: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;margin: 0;padding: 0;}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+background: #EFE7E1 ;
+}
+
+
+h1{
+	background-color: red;
+   width:300px;
+	 font-size: 60px;
+	 font-style:bold;
+	 font-family: Garamond;
+	 text-align: center;
+	 position: relative;
+	 border: dashed white;
+	 border-width: 15px;
+	 margin:0 auto;
+
+}
+div{
+  padding-top: 10px;
+}
+h2{
+	font-size: 30px;
+text-align: center;
+padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: #272625;
+}
+
+
+p{
+	font-family: Garamond;
+	font-size:18px;
+  text-align: center;
+}
+ h3{
+	 text-align: center
+ }
+
+ footer {
+  margin: 2.5em 1px ;
+  text-align: center;
+  font-family: Garamond;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+footer a {
+  text-decoration: none;
+  background: #272625;
+  padding: 0.15rem 0.5rem;
+  color: #EFE7E1;
+  margin: 0 0.15em;
+  letter-spacing: 0.05em;
+}
+
+footer a:hover, footer a:focus {
+  background-color: #EFE7E1;
+}
+
+
+
+.preamble p{
+	background-color: red;
+	width: 400px;
+	height: auto;
+}
+
+
+.explanation p{
+	background-color: red;
+	width: 400px;
+	height:150px;
+	margin: 0 auto;
+}
+.participation p{
+	background-color: red;
+	width: 400px;
+	height: auto;
+
+}
+.benefits p{
+	background-color: red;
+	width:400px;
+	height: auto;
+}
+.requirements p{
+	background-color: red;
+	width: 400px;
+	height: auto;
+}
+
+
+
+h3{
+	font-size: 30px;
+
+}
+
+li{text-align: center;
+	font-family: Garamond;
+	font-size: 20px;
+
+
+}
+
+html {
+  overflow-y: auto;
+  background: #EFE7E1;
+  background-size: 22em;
+}
+
+.sidebar{text-align: center;
+	font-family: Garamond;
+
+}
+#zen-intro {
+max-width: 400px;
+margin: auto;
+padding-top: 30px;
+}
+
+
+#zen-preamble h3 p p p{
+max-width: 400px;
+margin: auto;
+
+}
+#zen-supporting {
+max-width: 400px;
+margin: auto;
+
+}
+#zen-explanation {
+max-width: 400px;
+margin: auto;
+
+}
+#zen-requirements {
+max-width: 400px;
+margin: auto;
+}
+
+#zen-benefits {
+max-width: 400px;
+margin: auto;
+
+}
+
+#design-selection {
+   float:left;
+   width:100%;
+   background:#EFE7E1;
+   overflow:hidden;
+   position:relative;
+}
+#design-selection ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#design-selection ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#design-selection ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#ddd;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#design-selection ul li a:hover {
+   background:#EFE7E1;
+   color:#EFE7E1;
+}
+#design-selection ul li a.active,
+#design-selection ul li a.active:hover {
+   color:#fff;
+   background:#EFE7E1;
+   font-weight:bold;
+}
+
+#design-archives {
+   float:left;
+   width:100%;
+   background:#EFE7E1;
+   overflow:hidden;
+   position:relative;
+}
+#design-archives ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#design-archives ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#design-archives ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#ddd;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#design-archives ul li a:hover {
+   background:#369;
+   color:#fff;
+}
+
+#zen-resources {
+   float:left;
+   width:100%;
+   background:#EFE7E1;
+   overflow:hidden;
+   position:relative;
+   padding-bottom: 50px;
+}
+#zen-resources ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#zen-resources ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#zen-resources ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#ddd;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#zen-resources ul li a:hover {
+   background:#EFE7E1;
+   color:#fff;
+}
+
+#zen-resources ul li a.active:hover {
+   color:#fff;
+   background:#EFE7E1;
+   font-weight:bold;
+
+}
